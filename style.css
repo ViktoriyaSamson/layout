@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+	padding: 0;
+	font-family: 'Arial';
+    font-style: normal;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} } @media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} } @media screen and (max-width: 992px) { div.contentblock {width: 970px;} } 
+
+.container {
+	max-width: 1600px;
+	width: 100%;
+	margin: 0 auto;
+	
+}
+
+.menu_top {
+    height: 68px;
+    background-color:#2F2E41; 
+}
+
+.top {
+    height: 517px;
+}
+
+.img {
+    float: right;
+    margin-right: 60px;
+    margin-top: 106px;
+}
+.font {
+    font-size: 110px;
+    color: #195e17;
+    margin-left: 60px;
+    margin-top: 106px;
+    float: left; 
+}
+
+.about_me {
+    margin-top: 100px;
+    height: 200px;
+}
+.font_1 {
+    color: #195e17; 
+    font-size: 48px;
+    margin-left: 64px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.container {
+    height: 790px;
+    width: auto;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.center {
+    float: left;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.text_center {
+    float: right;
+    padding-top: 150px;
+    font-size: 18px;
+    height: 240px;
+    width: 462px;    
+}
+
+.img_2 {
+    height: 472px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.imgs {
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.icon {
+    width: 110px;
+    height: 107px;
+    padding: 48px;
+}
+
+.pices {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+    margin-top: 22px;
+}
+
+.contact {
+    float: left;
+    margin-left: 60px;
+
+}
+
+.fly {
+    height: 138px;
+    float: right;
+    margin-right: 60px;
+    
+}
